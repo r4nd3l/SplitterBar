@@ -1,0 +1,147 @@
+/* Default DevCorner Style Setting */
+
+:root{
+  --dc-: #28a745; /* #28a745 */
+  --rgba-dc-: rgba(40, 167, 69, 0.5);
+  --rgba-wh-: rgba(255, 255, 255, 0.5);
+  --gr-: #515151;
+  --wh-: #fefefe;
+  --sg-: #f7f7f7;
+  --lg-: #b9b9b9;
+  --shadow1-: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  --shadow2-: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.08) inset;
+  --text-sh-: 2px 5px 2px rgba(33,33,33,0.25);
+  --card-: perspective(1000px) rotateY(-20deg) translateX(-20px);
+}
+
+.fa-code{
+  color: var(--dc-);
+}
+
+button::-webkit-focus-inner{
+  border: 0;
+}
+button::-moz-focus-inner{
+  border: 0;
+}
+button::-o-focus-inner{
+  border: 0;
+}
+button::-ms-focus-inner{
+  border: 0;
+}
+
+.center{
+  width: 50%;
+  margin: 10vh auto 15vh auto;
+  text-align: center;
+}
+
+.center p:last-child{
+  margin: 1em auto 2em;
+  font-family: Roboto;
+  font-size: 1.2em;
+  color: var(--dc-);
+  background: rgba(255,255,255,0.8);
+  width: 110px;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+}
+
+.brand{
+  color: var(--gr-);
+  font-family: Roboto;
+  font-size: 3em;
+  text-shadow: var(--text-sh-);
+  margin: 0 auto;
+  padding: 0;
+}
+
+.slogan{
+  color: var(--gr-);
+  font-family: Roboto;
+  font-size: 1.2em;
+  text-shadow: var(--text-sh-);
+  margin: 0 auto;
+  padding: 0;
+}
+
+body{
+  background: url(../img/img_05.jpeg) no-repeat 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Roboto;
+  padding: 0;
+  margin: 0;
+}
+
+.leftSide{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.rightSide{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.leftSide, .rightSide, .splitter {
+  position: absolute;
+  height: 100%;
+  overflow: hidden;
+}
+
+.splitter {
+  width: 10px;
+  z-index: 100;
+  cursor: col-resize;
+}
+
+.leftSide > div, .rightSide > div {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.div-2-content{
+  color: var(--sg-);
+}
+
+.div-1-content{
+  color: var(--dc-);
+}
+
+.div-1-content, .div-2-content {
+  margin: auto;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  width: 100%;
+}
+
+.containerOne {
+  position: relative;
+  height: 300px;
+  width: 50%;
+  margin: auto;
+  box-shadow: var(--shadow1-);
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End */
